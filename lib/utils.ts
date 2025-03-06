@@ -1,6 +1,7 @@
+"use client";
+
 import { clsx, type ClassValue } from "clsx"
 import { twMerge } from "tailwind-merge"
-;("use client")
 
 // Function to get all shelters (both predefined and custom)
 export function getAllShelters() {
